@@ -230,15 +230,6 @@ body {
   .grid-section h1 {
     font-size: 3rem;
   }
-  .faq-lista {
-    max-width: 60ch;
-  }
-  .faq-lista dt {
-    margin-top: 6rem;
-  }
-  .faq-lista dd {
-    margin-bottom: 220px;
-  }
   .menu {
     margin-top: 0px;
   }
@@ -257,6 +248,16 @@ body {
 .js-tabcontent section.ativo {
   display: block !important;
   animation: show 0.5s forwards;
+}
+
+@media (max-width: 600px) {
+  .faq-lista {
+    max-width: 60ch;
+  }
+  .faq-lista dd,
+  dt {
+    margin-bottom: 350px;
+  }
 }
 
 @keyframes show {
