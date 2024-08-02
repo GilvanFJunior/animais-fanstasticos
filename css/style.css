@@ -159,10 +159,17 @@ body {
   background: #fb5;
 }
 
+.faq-lista dt {
+  margin-top: 90px;
+}
+
 .faq-lista dd {
   font-family: Helvetica, Arial;
-  margin-bottom: 0.5rem;
+  margin-bottom: 3rem;
   margin-left: 30px;
+}
+.faq-lista p {
+  margin: 10px;
 }
 
 .mapa {
@@ -223,8 +230,20 @@ body {
   .grid-section h1 {
     font-size: 3rem;
   }
+  .faq-lista {
+    max-width: 60ch;
+  }
+  .faq-lista dt {
+    margin-top: 6rem;
+  }
+  .faq-lista dd {
+    margin-bottom: 220px;
+  }
   .menu {
     margin-top: 0px;
+  }
+  .contato {
+    margin-top: 200px;
   }
   .copy {
     margin-bottom: 0px;
